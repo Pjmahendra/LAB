@@ -17,7 +17,7 @@ int binary(int a, int arr[], int n) {
 
 int main() {
     int n, x;
-    printf("Enter number of elements in the array: ");
+    printf("Enter number of elements in an array: ");
     scanf("%d", &n);
     int arr[n];
     printf("Enter elements of the array in sorted order: ");
