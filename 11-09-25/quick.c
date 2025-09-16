@@ -26,5 +26,15 @@ int quickSort(int arr[], int low, int high) {
     return 0;
 }
 int main(){
+    int x;
+    scanf("%d",&x);
+    int arr[x];
+    for(int i=0;i<x;i++){
+        scanf("%d",&arr[i]);
+    }
+    quickSort(arr,0,x-1);
+    for(int i=0;i<x;i++){
+        printf("%d ",arr[i]);
+    }
     return 0;
 }
